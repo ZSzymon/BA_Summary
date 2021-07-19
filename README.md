@@ -1,10 +1,10 @@
-
-##Wstęp
+# Garmin Traning Classificator
+## Wstęp
 Ruch. Słowo te można by uznać za synonim słowa “Życie”. Od jego początku aż do końca, my bądź nasz organizm pozostaje w ruchu. Rodzimy się, zaczynamy raczkować, później chodzić. A w momencie, kiedy chcemy szybciej to biegam. Wraz z rozwojem technologii, zaczęliśmy wykorzystywać jej zdobycze. Dotychczas do analizy danych biometrycznych wykorzystywało się metody staty-styczne oraz polegało się na intuicji trenerów. Wykorzystanie metod sztucznej inteligencji bę-dzie kolejnym krokiem w konkurowaniu oraz uzyskiwaniu lepszych wyników
 
-##Cel
+## Cel
 W tej pracy skupiono uwagę na stworzeniu narzędzi do analizy biometrycznych danych treningowych możliwych do zebrania za pomocą urządzeń typu wearable sensors. W ten spo sób powstało sześć klasyfikatorów jednostek treningowych ze względu na ich typ. 
-##Zbiór danych
+## Zbiór danych
 Dane zostały zebrane za pomocą urządzenia Garmin Fenix 5 Plus oraz Polar H10. Następnie za pomocą skrapera, zostały pobrane z serwisu Garmin Connect. W taki sposób zostało pobrane łącznie ponad 500 zapisów treningów. Kolejnym etapem było przekształcenie, czyszczenie oraz przygotowanie danych. W wyniki tych operacji powstał zbiór danych z ponad 500 elementami. 
 
 ![ZbiorDanych](resources/photos/img.png)
@@ -13,7 +13,7 @@ Dane zostały w ręczny sposób po etykietowane z względu na rodzaj treningu.
 ## Klasyfikacja
 Następnie stworzone zostały następujące klasyfikatory
 ![ZbiorDanych](resources/photos/img_2.png)
-##Ewaluacja
+## Ewaluacja
 W celu ewaluacji modeli, wykorzystałem metrykę dokładności, precyzji oraz macierz zamieszania.
 
 Poniżej znajdują się wyniki, najlepszego oraz najgorszego modelu.
